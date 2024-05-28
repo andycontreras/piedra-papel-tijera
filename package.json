@@ -1,0 +1,37 @@
+{
+  "name": "ppt-v2",
+  "version": "1.0.0",
+  "scripts": {
+    "dev:front": "parcel serve ./public/index.html",
+    "dev:back": "nodemon -r dotenv/config --legacy-watch ./server/index.ts --exec ts-node ./dev.ts",
+    "build:front": "parcel build ./public/index.html",
+    "build:back": "tsc ./server/index.ts",
+    "build": "npm run build:front && npm run build:back",
+    "start": "node ./server/index.js"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "@types/firebase": "^3.2.1",
+    "@types/node": "^20.12.12",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase": "^10.12.2",
+    "firebase-admin": "^12.1.1",
+    "nanoid": "^3.3.7",
+    "nodemon": "^3.1.1",
+    "parcel": "^2.12.0",
+    "process": "^0.11.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "crypto-browserify": "^3.12.0",
+    "events": "^3.3.0",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "stream-browserify": "^3.0.0",
+    "vm-browserify": "^1.1.2"
+  }
+}
