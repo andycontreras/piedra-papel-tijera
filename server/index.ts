@@ -1,8 +1,8 @@
-import express from 'express';
-import cors from 'cors';
+import * as express from 'express';
+import * as cors from 'cors';
 import { rtdb, fireStore } from './db';
 import { customAlphabet } from 'nanoid';
-import path = require('path');
+import path from 'path';
 
 //Inicializamos el servidor
 const app = express();

@@ -1,11 +1,11 @@
 {
     "compilerOptions": {
         "lib": ["ES6"],
-        "moduleResolution": "NodeNext",
+        "moduleResolution": "Node",
+        "module": "ES6",
         "resolveJsonModule": true,
         "target": "ES6",
         "outDir": "./dist",
-        "module": "NodeNext",
         "allowSyntheticDefaultImports": true
     },
     "include": ["server/*.ts"],
