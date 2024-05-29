@@ -12,6 +12,7 @@
   "keywords": [],
   "license": "ISC",
   "dependencies": {
+    "@google-cloud/storage": "^7.11.1",
     "@parcel/watcher": "^2.4.1",
     "@types/firebase": "^3.2.1",
     "@types/node": "^20.12.12",

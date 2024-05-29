@@ -3,6 +3,8 @@
         "moduleResolution": "Node",
         "resolveJsonModule": true,
         "target": "ES5",
-        "allowSyntheticDefaultImports": true
+        "allowSyntheticDefaultImports": true,
+        "strict": true
     },
+    "include": ["server/**/*", "client/**/*", "public/**/*"]
 }
