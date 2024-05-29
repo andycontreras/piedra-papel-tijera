@@ -1,9 +1,12 @@
 {
     "compilerOptions": {
+        "lib": ["ESNext", "DOM"],
         "moduleResolution": "Node",
         "resolveJsonModule": true,
-        "target": "ES5",
+        "target": "ES6",
         "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true
     },
-    "include": ["server/**/*", "client/**/*", "public/**/*"]
+    "include": ["server/**/*", "client/**/*", "public/**/*"],
+    "exclude": ["node_modules"]
 }
