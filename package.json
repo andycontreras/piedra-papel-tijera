@@ -4,7 +4,7 @@
   "scripts": {
     "dev:front": "parcel serve ./public/index.html",
     "dev:back": "nodemon -r dotenv/config --legacy-watch ./server --exec ts-node ./dev.ts",
-    "build:front": "parcel build ./public/index.html",
+    "build:front": "parcel build ./client/index.html",
     "build:back": "tsc ./server/index.ts",
     "build": "npm run build:front && npm run build:back",
     "start": "node ./server/index.js"
@@ -14,6 +14,7 @@
   "dependencies": {
     "@google-cloud/storage": "^7.11.1",
     "@parcel/watcher": "^2.4.1",
+    "@types/cors": "^2.8.17",
     "@types/firebase": "^3.2.1",
     "@types/node": "^20.12.12",
     "cors": "^2.8.5",

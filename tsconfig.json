@@ -4,7 +4,6 @@
         "resolveJsonModule": true,
         "target": "ES5",
         "allowSyntheticDefaultImports": true,
-        "strict": true
     },
     "include": ["server/**/*", "client/**/*", "public/**/*"]
 }
