@@ -4,5 +4,7 @@
         "moduleResolution": "Node",
         "resolveJsonModule": true,
         "target": "ESNEXT",
+        "outDir": "dist",
+        "module": "CommonJS"
     },
 }
