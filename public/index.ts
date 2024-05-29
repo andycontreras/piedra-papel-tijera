@@ -4,7 +4,7 @@ import '../client/components/text/text';
 import '../client/components/hands/hands';
 import { state } from '../client/state';
 (() => {
-	const root = document.querySelector('.root');
+	const root: any = document.querySelector('.root');
 	initRoute(root);
 	state.init();
 })();

@@ -13,13 +13,13 @@ const roomsColl = fireStore.collection('rooms');
 const nano = customAlphabet('ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890', 10);
 const newID = nano(6);
 
-app.use(express.static('../dist'));
+// app.use(express.static('../dist'));
 app.use(cors());
 app.use(express.json());
 
-app.get('*', (req, res) => {
-	res.sendFile('../dist/index.html');
-});
+// app.get('*', (req, res) => {
+// 	res.sendFile('../dist/index.html');
+// });
 //Endpoint checked
 app.post('/signup', async (req, res) => {
 	const { email, name } = req.body;
