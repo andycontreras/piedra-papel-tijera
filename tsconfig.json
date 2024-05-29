@@ -1,8 +1,7 @@
 {
     "compilerOptions": {
-        "lib": ["ES6"],
-        "moduleResolution": "Node",
-        "module": "ES6",
+        "moduleResolution": "NodeNext",
+        "module": "NodeNext",
         "resolveJsonModule": true,
         "target": "ES6",
         "outDir": "./dist",
