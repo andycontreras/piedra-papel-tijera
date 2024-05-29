@@ -4,5 +4,4 @@
         "resolveJsonModule": true,
         "target": "ESNext"
     },
-    "files": ["./server/index.ts"]
 }

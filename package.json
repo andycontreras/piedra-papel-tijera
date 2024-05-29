@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev:front": "parcel serve ./public/index.html",
-    "dev:back": "nodemon -r dotenv/config --legacy-watch ./server/index.ts --exec ts-node ./dev.ts",
+    "dev:back": "nodemon -r dotenv/config --legacy-watch ./server --exec ts-node ./dev.ts",
     "build:front": "parcel build ./public/index.html",
     "build:back": "tsc ./server/index.ts",
     "build": "npm run build:front && npm run build:back",
@@ -33,5 +33,8 @@
     "path-browserify": "^1.0.1",
     "stream-browserify": "^3.0.0",
     "vm-browserify": "^1.1.2"
+  },
+  "optionalDependencies": {
+    "lightningcss.linux-x64-gnu.node": "2.2.0"
   }
 }
