@@ -5,7 +5,8 @@
         "resolveJsonModule": true,
         "target": "ES6",
         "outDir": "./dist",
-        "module": "NodeNext"
+        "module": "NodeNext",
+        "allowSyntheticDefaultImports": true
     },
     "include": ["server/*.ts"],
 }
