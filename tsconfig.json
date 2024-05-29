@@ -1,10 +1,12 @@
 {
     "compilerOptions": {
-        "lib": ["ESNext", "DOM"],
+        "lib": ["ES5"],
         "moduleResolution": "Node",
         "resolveJsonModule": true,
-        "target": "ESNEXT",
-        "outDir": "dist",
+        "target": "ES5",
+        "outDir": "./dist",
         "module": "CommonJS"
     },
+    "include": ["server/**/*.ts"],
+    "exclude": ["node_modules"]
 }
