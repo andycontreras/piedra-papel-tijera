@@ -12,6 +12,7 @@
   "keywords": [],
   "license": "ISC",
   "dependencies": {
+    "@parcel/watcher": "^2.4.1",
     "@types/node": "^20.12.12",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
