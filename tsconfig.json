@@ -6,7 +6,6 @@
         "resolveJsonModule": true,
         "allowSyntheticDefaultImports": true,
         "esModuleInterop": true,
-        "skipLibCheck": true,
         "baseUrl": ".",
     },
 }
