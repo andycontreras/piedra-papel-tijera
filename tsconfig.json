@@ -5,6 +5,7 @@
         "moduleResolution": "NodeNext",
         "resolveJsonModule": true,
         "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
         "baseUrl": ".",
     },
 }
