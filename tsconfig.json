@@ -1,11 +1,9 @@
 {
     "compilerOptions": {
+        "module": "CommonJS",
         "target": "ES6",
-        "module": "NodeNext",
-        "moduleResolution": "NodeNext",
-        "resolveJsonModule": true,
-        "allowSyntheticDefaultImports": true,
-        "esModuleInterop": true,
-        "baseUrl": ".",
+        "rootDir": "./server",
+        "esModuleInterop": true
     },
+    "include": ["./server/**/*"]
 }

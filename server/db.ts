@@ -1,10 +1,10 @@
 import 'dotenv/config';
 import * as admin from 'firebase-admin';
 
-const serviceAccount = JSON.parse(process.env.DB_CREDENTIAL);
+const serviceAccount = JSON.parse(process.env.GOOGLE_CREDENTIALS);
 admin.initializeApp({
-	credential: admin.credential.cert(serviceAccount as any),
-	databaseURL: process.env.DATABASE_URL as any,
+	credential: admin.credential.cert(serviceAccount),
+	databaseURL: process.env.DATABASE_URL,
 });
 const fireStore = admin.firestore();
 const rtdb = admin.database();
