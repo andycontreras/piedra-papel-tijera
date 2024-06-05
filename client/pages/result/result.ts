@@ -147,8 +147,8 @@ export function initResult(params) {
     </div>
     `;
 
-	const tryAg = div.querySelector('.try-again');
-	const comeBa = div.querySelector('.come-back');
+	const tryAg: any = div.querySelector('.try-again');
+	const comeBa: any = div.querySelector('.come-back');
 
 	tryAg.addEventListener('click', (e) => {
 		e.preventDefault();

@@ -117,8 +117,8 @@ export function initHome(params) {
     </div>
     `;
 
-	let nwg = div.querySelector('.new_game');
-	let jnr = div.querySelector('.join_room');
+	let nwg: any = div.querySelector('.new_game');
+	let jnr: any = div.querySelector('.join_room');
 	console.log(userData.usrID);
 
 	nwg.addEventListener('click', (e) => {
@@ -141,7 +141,7 @@ export function initHome(params) {
 	});
 
 	const submitRoom: any = div.querySelector(`.roomID__code_number[name=code]`);
-	const subForm = div.querySelector('.code-index');
+	const subForm: any = div.querySelector('.code-index');
 	subForm.addEventListener('submit', (e) => {
 		e.preventDefault();
 		let puID = submitRoom.value;

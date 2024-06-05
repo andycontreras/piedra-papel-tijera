@@ -6,7 +6,7 @@ export function initGame(params) {
 	let counter = 5;
 	const countdown = setInterval(() => {
 		counter--;
-		const clock = div.querySelector('.countdown');
+		const clock: any = div.querySelector('.countdown');
 		clock.textContent = String(counter);
 		if (counter <= 1) {
 			clearInterval(countdown);

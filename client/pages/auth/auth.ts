@@ -131,7 +131,7 @@ export function initAuth(params) {
     `;
 	//COMPORTAMIENTO DE LOS BOTONES:
 	const bttnMain: any = div.querySelector('.main');
-	const lgnBttn = div.querySelector('.log-in');
+	const lgnBttn: any = div.querySelector('.log-in');
 	const lgnForm: any = div.querySelector('.lgn-form');
 	lgnBttn.addEventListener('click', (e) => {
 		e.preventDefault();
@@ -140,7 +140,7 @@ export function initAuth(params) {
 		console.log('Hice click en: ', lgnBttn);
 	});
 
-	const sgnpBttn = div.querySelector('.sign-up');
+	const sgnpBttn: any = div.querySelector('.sign-up');
 	const sgnpForm: any = div.querySelector('.sgnp-form');
 	sgnpBttn.addEventListener('click', (e) => {
 		e.preventDefault();
@@ -149,8 +149,8 @@ export function initAuth(params) {
 		console.log('Hice click en: ', sgnpBttn);
 	});
 
-	const lgnhidden = div.querySelector('.lgnHide');
-	const sgnphidden = div.querySelector('.sgnpHide');
+	const lgnhidden: any = div.querySelector('.lgnHide');
+	const sgnphidden: any = div.querySelector('.sgnpHide');
 	lgnhidden.addEventListener('click', (e) => {
 		e.preventDefault();
 		bttnMain.style.display = 'grid';
