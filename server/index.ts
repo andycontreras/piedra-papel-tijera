@@ -13,7 +13,9 @@ const roomsColl = fireStore.collection('rooms');
 //Configuramos nanoID
 const nano = customAlphabet('ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890', 10);
 const newID = nano(6);
+
 app.use(cors());
+app.use(express.static(path.join(__dirname, '../dist')));
 app.use(express.json());
 
 app.get('*', (req, res) => {
